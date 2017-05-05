@@ -32,6 +32,11 @@
   background-color: red; 
 }
 
+#menu
+{
+  display:none; 
+}
+
 *
 {
   margin: 0;
