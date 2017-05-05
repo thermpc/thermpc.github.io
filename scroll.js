@@ -26,25 +26,26 @@ $(document).ready(function(){
 
 $('#intro').on('click', function(e){
 
-  $('#menu').css('display','none');
+ $('#menu').hide();
 
 });
 
 $('#about').on('click', function(e){
 
-  $('#menu').css('display','none');
+ $('#menu').hide();
+
 
 });
 
 $('#sample').on('click', function(e){
 
-  $('#menu').css('display','none');
+ $('#menu').hide();
 
 });
 
 $('#contact').on('click', function(e){
 
-  $('#menu').css('display','none');
+ $('#menu').hide();
 
 });
 
