@@ -38,7 +38,8 @@
   padding: 0; 
 }
 
-a
+.header a
 {
   color: white;
+  text-align: center;
 }
