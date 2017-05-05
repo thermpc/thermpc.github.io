@@ -1,0 +1,14 @@
+.section
+{
+  height: 70vh;
+}
+
+#intro
+{
+  background-color: blue;
+}
+
+#about
+{
+  background-color: yellow;
+}
