@@ -1,6 +1,6 @@
 .section
 {
-  height: 70vh;
+  height: 100vh;
 }
 
 #intro
@@ -11,6 +11,16 @@
 #about
 {
   background-color: yellow;
+}
+
+#sample
+{
+  background-color: green; 
+}
+
+#contact
+{
+  background-color: red; 
 }
 
 *
