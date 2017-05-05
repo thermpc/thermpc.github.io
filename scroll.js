@@ -24,6 +24,30 @@ $(document).ready(function(){
   });
 });
 
+$('#intro').on('click', function(e){
+
+  $('#menu').css('display','none');
+
+});
+
+$('#about').on('click', function(e){
+
+  $('#menu').css('display','none');
+
+});
+
+$('#sample').on('click', function(e){
+
+  $('#menu').css('display','none');
+
+});
+
+$('#contact').on('click', function(e){
+
+  $('#menu').css('display','none');
+
+});
+
 function toggleMenu() 
 {
   var menuBox = document.getElementById('menu');    
