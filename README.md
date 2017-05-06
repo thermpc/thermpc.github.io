@@ -1,2 +1,3 @@
-# naveenr414.github.io
+# Website for Programming Competition
 Front End Website for the Programming Competition 
+
