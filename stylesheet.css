@@ -7,9 +7,9 @@
 {
   position: fixed;
   top: 0;
-  left: 0;
-  height: 100%;
-  width: 20%; 
+  left: 50%;
+  width: 50%;
+  text-decoration: none;
 }
 
 #intro
@@ -43,9 +43,8 @@
   padding: 0; 
 }
 
-.header
+.circle
 {
-  color: white;
-  text-align: left
-  text-decoration: none;
+  display:inline;
+  margin-right: 15%;
 }
