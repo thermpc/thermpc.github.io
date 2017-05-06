@@ -6,10 +6,11 @@
 .header
 {
   position: fixed;
-  top: 0;
+  top: 4%;
   left: 50%;
   width: 50%;
   text-decoration: none;
+  height: 10%;
 }
 
 #intro
@@ -43,8 +44,24 @@
   padding: 0; 
 }
 
-.circle
+
+.circle 
 {
-  display:inline;
-  margin-right: 15%;
+  display:inline-block;
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 12px;
+  
+  color: #fff;
+  text-align: center;
+  
+  background: #000;
+  margin-right: 5%;
+}
+
+.circle br
+{
+    line-height: 10px;
 }
