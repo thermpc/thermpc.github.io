@@ -22,41 +22,35 @@ $(document).ready(function(){
       );
     } 
   });
+
+
+
+
+
+  $("#introButton").on('click',function(event)
+  {
+
+    document.getElementById("introLink").click(); 
+  });
+
+  $("#sampleButton").on('click',function(event)
+  {
+
+    document.getElementById("sampleLink").click(); 
+  });
+
+  $("#contactButton").on('click',function(event)
+  {
+
+    document.getElementById("contactLink").click(); 
+  });
+
+  $("#aboutButton").on('click',function(event)
+  {
+
+    document.getElementById("aboutLink").click(); 
+  });
+
+
 });
 
-$('#intro').on('click', function(e){
-
- $('#menu').hide();
-
-});
-
-$('#about').on('click', function(e){
-
- $('#menu').hide();
-
-
-});
-
-$('#sample').on('click', function(e){
-
- $('#menu').hide();
-
-});
-
-$('#contact').on('click', function(e){
-
- $('#menu').hide();
-
-});
-
-function toggleMenu() 
-{
-  var menuBox = document.getElementById('menu');    
-  if(menuBox.style.display == "block") {
-    menuBox.style.display = "none";
-  }
-  else
-  { 
-    menuBox.style.display = "block";
-  }
-}
