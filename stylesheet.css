@@ -54,14 +54,25 @@
   border-radius: 50%;
   font-size: 12px;
   
-  color: #fff;
   text-align: center;
   
   background: #000;
   margin-right: 5%;
+
+  /*Transitions when changing background color*/
+  -webkit-transition: background-color .5s ease-in-out;
+  -moz-transition: background-color .5s ease-in-out;
+  -o-transition: background-color .5s ease-in-out;
+  -ms-transition: background-color .5s ease-in-out;
+  transition: background-color .5s ease-in-out;
 }
 
 .circle br
 {
     line-height: 10px;
+}
+
+.circle.filled
+{
+  background: #f00;
 }

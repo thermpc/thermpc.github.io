@@ -52,5 +52,11 @@ $(document).ready(function(){
   });
 
 
+  $(".circle").hover(function()
+  {
+    $(this).toggleClass('filled');
+  });
+
 });
+
 
