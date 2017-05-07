@@ -57,6 +57,46 @@ $(document).ready(function(){
     $(this).toggleClass('filled');
   });
 
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    if(scroll<=350)
+    {
+      $("#introButton").addClass("filled");
+    }
+    else
+    {
+      console.log(scroll);
+      $("#introButton").removeClass("filled");
+    }
+
+    if(scroll>350 && scroll<=1050)
+    {
+      $("#aboutButton").addClass("filled");
+    }
+    else
+    {
+      $("#aboutButton").removeClass("filled");
+    }
+
+    if(scroll>1050 && scroll<=1650)
+    {
+      $("#sampleButton").addClass("filled");
+    }
+    else
+    {
+      $("#sampleButton").removeClass("filled");
+    }
+
+    if(scroll>1650)
+    {
+      $("#contactButton").addClass("filled");
+    }
+    else
+    {
+      $("#contactButton").removeClass("filled");
+    }
+});
+
 });
 
 
