@@ -54,7 +54,7 @@ $(document).ready(function(){
 
   $(".circle").hover(function()
   {
-    $(this).toggleClass('filled');
+    $(this).toggleClass('hovered');
   });
 
 $(window).scroll(function (event) {

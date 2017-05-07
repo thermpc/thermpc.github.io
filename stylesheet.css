@@ -53,11 +53,12 @@
   height: 50px;
   border-radius: 50%;
   font-size: 12px;
-  
+  border: 10px solid #888888; 
   text-align: center;
   
-  background: #000;
+  background: #f00;
   margin-right: 5%;
+  margin-left: 5%;
 
   /*Transitions when changing background color*/
   -webkit-transition: background-color .25s ease-in-out;
@@ -74,5 +75,10 @@
 
 .circle.filled
 {
-  background: #f00;
+  background: #00f;
+}
+
+.circle.hovered
+{
+  background: #f0f;
 }
