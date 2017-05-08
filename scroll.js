@@ -57,8 +57,18 @@ $(document).ready(function(){
     $(this).toggleClass('hovered');
   });
 
-$(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
+$(window).scroll(function (event)
+{
+    scrollPosition();
+});
+
+  scrollPosition()
+
+});
+
+function scrollPosition()
+{
+        var scroll = $(window).scrollTop();
     if(scroll<=350)
     {
       $("#introButton").addClass("filled");
@@ -95,8 +105,5 @@ $(window).scroll(function (event) {
     {
       $("#contactButton").removeClass("filled");
     }
-});
-
-});
-
+}
 
