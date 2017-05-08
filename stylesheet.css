@@ -27,21 +27,62 @@ body
 #intro h1
 {
   text-align: center;
+  text-decoration: none;
+  font-size: 70px;
+  font-weight: normal;
 }
 
+#intro h2
+{
+  text-align: center;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+#intro h3
+{
+  text-align: center;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+#intro form
+{
+  text-align: center;
+}
+
+#intro input
+{
+  border-radius: 5%;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  border: none;
+  background-color: #009ACD;
+  font-size: 55px;
+  color: white;
+  width: 350px;
+  height: 125px;
+
+  opacity: 0.75;
+}
+
+#intro input:hover
+{
+  opacity: 1.0;
+}
 #about
 {
-  background-color: #07889B;
+  background-color: #E6E6FA;
 }
 
 #sample
 {
-  background-color: green; 
+  background-color: #52b058; 
 }
 
 #contact
 {
-  background-color: red; 
+  background-color: #ffa07a; 
 }
 
 #menu
