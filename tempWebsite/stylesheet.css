@@ -1,0 +1,100 @@
+:root 
+{
+  --mainColor: #F3F9F3;
+  --headerColor: #376FA6;
+  --textColor: #66747B;
+}
+
+body
+{
+  background-color: var(--mainColor);
+  font-family: Ubuntu;
+}
+
+#logo
+{
+	float: left;
+	width: 10%;
+}
+
+#navigate
+{
+	
+	word-spacing: 30px;
+	float: right;
+	margin-right: 5%;
+	margin-top: 0.5%;
+	text-align: right;
+
+	font-size: 24px;
+	color: var(--headerColor);
+	font-weight: bold;
+}
+
+#navigate div
+{
+	display: inline-block;
+}
+
+#header
+{
+	text-align: center;
+	color: var(--headerColor);
+	font-size: 64px;
+	font-weight: bold;
+	padding-top: 4%;
+	font-family: "Open Sans";
+}
+
+#main
+{
+	padding-top: 1%;
+}
+
+.column
+{
+	width: 20%;
+	float: left;
+	text-align: center;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 24px;
+	color: var(--textColor);
+	border-right: solid var(--textColor);
+	margin-bottom: 1%;	
+	border-spacing:4 px;	
+}
+
+.last
+{
+	border-right: none;
+}
+
+.column hr
+{
+	border-right: none;
+	padding-right: none;
+	padding-left: none;
+}
+
+#main
+{
+
+}
+
+.column img
+{
+	width: 35%;
+}
+
+.column h2
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: var(--headerColor);
+}
+
+.bottom
+{
+	border-top: solid var(--textColor);
+}
