@@ -8,7 +8,7 @@
 body
 {
   background-color: var(--mainColor);
-  font-family: Ubuntu;
+  font-family: "Open Sans";
 }
 
 #logo
