@@ -3,6 +3,7 @@
   --mainColor: #F3F9F3;
   --headerColor: #376FA6;
   --textColor: #66747B;
+  --highlightColor: #703AAD;
 }
 
 body
@@ -97,4 +98,29 @@ body
 .bottom
 {
 	border-top: solid var(--textColor);
+}
+
+#schedule
+{
+	text-align: center;
+	padding-left: 25%;
+	padding-right: 25%;
+	color: var(--textColor);
+	font-size: 24px;
+}
+
+#problems table
+{
+	color: var(--textColor);
+	font-size: 28px;
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#problems a
+{
+	color: var(--highlightColor);
+	word-spacing: 30px;
 }
