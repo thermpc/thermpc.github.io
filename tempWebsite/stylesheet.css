@@ -26,7 +26,7 @@ body
 	margin-top: 0.5%;
 	text-align: right;
 
-	font-size: 22px;
+	font-size: 24px;
 	color: var(--headerColor);
 	font-weight: bold;
 }
@@ -58,7 +58,7 @@ body
 	text-align: center;
 	padding-left: 2%;
 	padding-right: 2%;
-	font-size: 24px;
+	font-size: 22px;
 	color: var(--textColor);
 	border-right: solid var(--textColor);
 	margin-bottom: 1%;	
