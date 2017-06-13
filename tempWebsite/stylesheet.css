@@ -1,16 +1,22 @@
-:root 
+:root
 {
   --mainColor: #F3F9F3;
   --headerColor: #376FA6;
   --textColor: #66747B;
   --highlightColor: #703AAD;
+  --questionColor: #FF0000;
+  --hoverColor: #FFFF00;
+  --answerColor: #0000FF;
+  --footerColor: #00FF00;
 }
 
 body
 {
   background-color: var(--mainColor);
   font-family: "Open Sans";
+  margin: 0;
 }
+
 
 #logo
 {
@@ -123,4 +129,51 @@ body
 {
 	color: var(--highlightColor);
 	word-spacing: 30px;
+}
+
+.textButton
+{
+	padding: 0;
+	border: none;
+	background: none;
+	cursor: pointer;
+	text-align: center;
+	color: var(--questionColor);
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.textButton:hover
+{
+	color: var(--hoverColor);
+}
+
+.buttonClass
+{
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+.answers
+{
+	text-align: center;
+	font-size: 24px;
+	color: var(--answerColor);
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   margin-left: 0%;
+   height:20%;   /* Height of the footer */
+   background: var(--footerColor);
+}
+
+#mail
+{
+	padding-top: 1%;
+	padding-left: 10%;
+	padding-right: 11%;
+	width: 12%;
 }
