@@ -4,10 +4,10 @@
   --headerColor: #376FA6;
   --textColor: #66747B;
   --highlightColor: #703AAD;
-  --questionColor: #FF0000;
-  --hoverColor: #FFFF00;
-  --answerColor: #0000FF;
-  --footerColor: #00FF00;
+  --questionColor: #703AAD;
+  --hoverColor: #FB447;
+  --answerColor: #66747B;
+  --footerColor: #FFD447;
 }
 
 body
