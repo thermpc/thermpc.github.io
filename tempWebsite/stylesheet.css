@@ -8,6 +8,9 @@
   --hoverColor: #FFB447;
   --answerColor: #66747B;
   --footerColor: #CCCCCC;
+  --titleColor: yellow;
+  --dateColor:  #32cd32;
+  --fillerColor: purple;
 }
 
 body
@@ -55,15 +58,17 @@ body
 .mainBackground { 
    position: relative; 
    width: 100%; /* for IE 6 */
+   height: 75%;
 }
 
 .title 
 { 
    position: absolute; 
-   top: 200px; 
+   top: 20%; 
    left: 0; 
    width: 100%; 
-   color: yellow;
+   
+   color: var(--titleColor);
    text-align: center;
    font-size: 72px;
    font-weight: bold;
@@ -72,12 +77,58 @@ body
 .date
 {
 	position: absolute;
-	top: 325;
+	top: 40%;;
 	width: 100%;
-	left: 0;
 	text-align: center;
-	position:absolute;
-	color: #32cd32; 
+	color: var(--dateColor); 
+	font-weight: normal;
+}
+
+.signup
+{
+	position: absolute;
+	top: 67.5%;
+	left: -10%;
+	width: 100%;
+	text-align: center;
+	color: var(--dateColor); 
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.signupForm
+{
+	position: absolute;
+	left: 12%;
+	top: 76%;
+	width: 100%;
+	text-align:center;
+}
+
+.email
+{
+		height: 30px;
+		width: 20em;
+}
+
+.filler
+{
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 24px;
+	color: purple;
+}
+
+.filler hr
+{
+	height: 6%;
+	visibility:hidden;
+}
+
+#backgroundPicture
+{
+	height: 100%;
+	width: 100%;
 }
 
 
