@@ -8,7 +8,7 @@
   --hoverColor: #FFB447;
   --answerColor: #66747B;
   --footerColor: #CCCCCC;
-  --titleColor: yellow;
+  --titleColor: #fffc51;
   --dateColor:  #32cd32;
   --fillerColor: purple;
 }
@@ -64,14 +64,31 @@ body
 .title 
 { 
    position: absolute; 
-   top: 20%; 
+   top: 15%; 
    left: 0; 
    width: 100%; 
    
    color: var(--titleColor);
    text-align: center;
-   font-size: 72px;
+   font-size: 96px;
    font-weight: bold;
+   font-family: 'Source Sans Pro';
+}
+
+.header
+{
+	position:fixed;
+	height: 100%;
+}
+
+.content
+{
+	position:fixed;
+    top: 10%;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll;   
 }
 
 .date
@@ -82,6 +99,8 @@ body
 	text-align: center;
 	color: var(--dateColor); 
 	font-weight: normal;
+	font-size: 36px;
+	font-family: Helvetica;
 }
 
 .signup
@@ -107,8 +126,9 @@ body
 
 .email
 {
-		height: 30px;
-		width: 20em;
+	height: 30px;
+	width: 20em;
+	font-family: Helvetica;
 }
 
 .filler
