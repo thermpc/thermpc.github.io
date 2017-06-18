@@ -271,7 +271,7 @@ body
    margin-left: 0%;
    height:8%;   /* Height of the footer */
    background: var(--footerColor);
-   bottom: 0;  if not scroll
+   /*bottom: 0;  if not scroll*/
 }
 
 #iconbar
