@@ -9,4 +9,5 @@ Front End Website for the Programming Competition
 * Get rid of the left-right scrollbar
 * Implement a mobile website
 * Implement a website for when the page is cut in half
+* Line up the horizontal lines beneath the About section
 
