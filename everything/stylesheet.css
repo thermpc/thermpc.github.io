@@ -1,24 +1,32 @@
 :root
 {
-	--mainColor: #F3F9F3;
-	--headerColor: #376FA6;
-	--textColor: #66747B;
-	--highlightColor: #703AAD;
-	--questionColor: #703AAD;
-	--hoverColor: #FFB447;
-	--answerColor: #66747B;
-	--footerColor: #CCCCCC;
-	--titleColor: #fffc51;
-	--dateColor:  #32cd32;
-	--fillerColor: purple;
-	--borderColor: black;
+  --mainColor: #F3F9F3;
+  --headerColor: #376FA6;
+  --textColor: #66747B;
+  --highlightColor: #703AAD;
+  --questionColor: #703AAD;
+  --navigationColor: rgba(255,255,255,0.5);
+  --hoverColor: #FFB447;
+  --answerColor: #66747B;
+  --footerColor: #CCCCCC;
+  --titleColor: #fffc51;
+  --dateColor:  black;
+  --buttonBackground: #0199FE;
 }
 
 body
 {
-	background-color: var(--mainColor);
-	font-family: "Open Sans";
-	margin: 0;
+  background-color: var(--mainColor);
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+.overallHeading
+{
+	background-color: var(--navigationColor);
+	height: 6%;
+	width: 100%;
+
 }
 
 #logo
@@ -29,7 +37,6 @@ body
 
 #navigate
 {
-	
 	word-spacing: 30px;
 	float: right;
 	margin-right: 5%;
@@ -58,28 +65,28 @@ body
 	color: var(--headerColor);
 	font-size: 64px;
 	font-weight: bold;
+	padding-top: 4%;
 	font-family: "Open Sans";
 }
 
-.mainBackground 
-{ 
-	position: relative; 
-	width: 100%; /* for IE 6 */
-	height: 80%;
+.mainBackground { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   height: 90%;
 }
 
 .title 
 { 
-	position: absolute; 
-	top: 15%; 
-	left: 0; 
-	width: 100%; 
-
-	color: var(--titleColor);
-	text-align: center;
-	font-size: 96px;
-	font-weight: bold;
-	font-family: 'Source Sans Pro';
+   position: absolute; 
+   top: 15%; 
+   left: 0; 
+   width: 100%; 
+   
+   color: var(--titleColor);
+   text-align: center;
+   font-size: 96px;
+   font-weight: bold;
+   font-family: 'Source Sans Pro';
 }
 
 .header
@@ -90,44 +97,44 @@ body
 
 .content
 {
-	border-top: thick solid var(--borderColor);
 	position:fixed;
-	top: 6%;
-	left:0px;
-	right:0px;
-	bottom:0px;
-	overflow-y:scroll;   
+    top: 6%;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll;   
 }
 
 .date
 {
 	position: absolute;
-	top: 40%;;
+	top: 55%;
+	left: 60%;
 	width: 100%;
-	text-align: center;
 	color: var(--dateColor); 
 	font-weight: normal;
-	font-size: 36px;
+	font-size: 28px;
+	font-weight: bold;
 	font-family: Helvetica;
 }
 
 .signup
 {
 	position: absolute;
-	top: 67.5%;
-	left: -10%;
+	top: 70%;
+	left: 20%;
 	width: 100%;
 	text-align: center;
 	color: var(--dateColor); 
-	font-size: 40px;
+	font-size: 32px;
 	font-weight: normal;
 }
 
 .signupForm
 {
 	position: absolute;
-	left: 11%;
-	top: 75%;
+	left: 20%;
+	top: 82.5%;
 	width: 100%;
 	text-align:center;
 }
@@ -138,6 +145,21 @@ body
 	width: 20em;
 	font-family: Helvetica;
 }
+
+.submitButton
+{
+	background-color: var(--buttonBackground);
+	color: black;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	height: 30px;
+	width: 5em;
+	border: 2px solid;
+	border-color: var(--buttonBackground);
+    border-radius: 8px;
+}	
 
 .filler
 {
@@ -216,7 +238,7 @@ body
 .schedule
 {
 	text-align: center;
-	padding-left: 40%;
+	padding-left: 25%;
 	padding-right: 25%;
 	color: var(--textColor);
 	font-size: 24px;
@@ -268,14 +290,12 @@ body
 	color: var(--answerColor);
 }
 
-#footer
+#footer 
 {
-	position:absolute;
-	width:100%;
-	margin-left: 0%;
-	height:8%;   /* Height of the footer */
-	background: var(--footerColor);
-	/*bottom: 0;  if not scroll*/
+   width:100%;
+   margin-left: 0%;
+   height:15%;   /* Height of the footer */
+   background: var(--footerColor);
 }
 
 #iconbar
@@ -283,14 +303,13 @@ body
 	width: 40%;
 	margin-left: 30%;
 	height: 100%;
-	display:flex;
 	align-items:center;
 }
 .icon
 {
-	margin-left: 33%;
-	margin-right: 33%;
-	width: 25%;
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 33%;
 }
 .icon:hover
 {
