@@ -1,4 +1,10 @@
-var answers = ["Bob","Joe"]
+var answers = ["The competition will be located at Richard Montgomery High School (250 Richard Montgomery Drive, Rockville, MD)",
+"The rules are listed <u> <a href='rules.txt'> here </a> </u>",
+"Teams have anywhere from 1 to 4 teammates",
+"Teammates do not need to be from the same school",
+"Python 3.4, Java 7 and C++ 11 will be used",
+"The prizes are giftcards for the top 3 teams",
+"Teams may bring as many non-electronic reference materials as they desire"]
 var counter;
 
 function buttonToggle(a)
