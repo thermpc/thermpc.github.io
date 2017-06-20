@@ -17,7 +17,7 @@
 
 body
 {
-	background-color: var(--mainColor);
+	background-color: var(--headerColor);
 	font-family: "Open Sans";
 	margin: 0;
 }
