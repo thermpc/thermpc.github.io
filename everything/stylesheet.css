@@ -24,8 +24,8 @@ body
 
 #overall
 {
-	margin:0 auto;
 	background-color: var(--headerColor);
+	margin: 0;
 }
 #logo
 {
