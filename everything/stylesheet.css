@@ -24,7 +24,7 @@ body
 
 #overallHeader
 {
-	background-color: var(--headerColor);
+	color: var(--headerColor);
 }
 
 #logo
