@@ -38,7 +38,8 @@ body
 	text-align: right;
 
 	font-size: 24px;
-	color: var(--headerColor);
+	color: var(--borderColor);
+	background-color: var(--headerColor);
 	font-weight: bold;
 }
 
@@ -51,12 +52,6 @@ body
 {
 	text-decoration: none;
 	color: var(--headerColor);
-}
-
-.overallHeader
-{
-	color: var(--borderColor);
-	background-color: var(--headerColor);
 }
 
 .aboutHeader
