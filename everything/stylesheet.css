@@ -22,12 +22,6 @@ body
 	margin: 0;
 }
 
-#overall div
-{
-	background-color: var(--headerColor);
-	color: var(--headerColor);
-}
-
 #logo
 {
 	float: left;
