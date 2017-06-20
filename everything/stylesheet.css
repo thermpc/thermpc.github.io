@@ -45,13 +45,13 @@ body
 #navigate div
 {
 	display: inline-block;
-	background-color: var(--headerColor);
 }
 
 #navigate a
 {
 	text-decoration: none;
 	color: var(--borderColor);
+	background-color: var(--headerColor);
 }
 
 .aboutHeader
