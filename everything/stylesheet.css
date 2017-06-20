@@ -22,7 +22,7 @@ body
 	margin: 0;
 }
 
-#overall
+#overall div
 {
 	background-color: var(--headerColor);
 	color: var(--headerColor);
