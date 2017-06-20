@@ -22,6 +22,11 @@ body
 	margin: 0;
 }
 
+#overall
+{
+	margin:0 auto;
+	background-color: var(--headerColor);
+}
 #logo
 {
 	float: left;
