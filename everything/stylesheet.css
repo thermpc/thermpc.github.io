@@ -53,6 +53,12 @@ body
 	color: var(--headerColor);
 }
 
+.overallHeader
+{
+	color: var(--borderColor);
+	background-color: var(--headerColor);
+}
+
 .aboutHeader
 {
 	text-align: center;
