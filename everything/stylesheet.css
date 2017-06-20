@@ -55,7 +55,7 @@ body
 #navigate a
 {
 	text-decoration: none;
-	color: var(--borderColor);
+	color: var(--headerColor);
 }
 
 .aboutHeader
