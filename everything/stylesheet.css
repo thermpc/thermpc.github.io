@@ -22,6 +22,11 @@ body
 	margin: 0;
 }
 
+#overallHeader
+{
+	background-color: var(--headerColor);
+}
+
 #logo
 {
 	float: left;
@@ -51,7 +56,6 @@ body
 {
 	text-decoration: none;
 	color: var(--borderColor);
-	background-color: var(--headerColor);
 }
 
 .aboutHeader
