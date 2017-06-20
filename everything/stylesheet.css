@@ -38,8 +38,7 @@ body
 	text-align: right;
 
 	font-size: 24px;
-	color: var(--borderColor);
-	background-color: var(--headerColor);
+	color: var(--headerColor);
 	font-weight: bold;
 }
 
