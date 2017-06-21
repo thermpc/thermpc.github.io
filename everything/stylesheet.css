@@ -27,6 +27,13 @@ body
 	background-color: var(--headerColor);
 	margin: 0;
 }
+
+.overallHeading
+{
+	height: 50px; 
+	width: 100%;	
+}
+
 #logo
 {
 	float: left;
