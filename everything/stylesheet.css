@@ -1,29 +1,48 @@
 :root
 {
-  --mainColor: #F3F9F3;
-  --headerColor: #376FA6;
-  --textColor: #66747B;
-  --highlightColor: #703AAD;
-  --questionColor: #703AAD;
-  --hoverColor: #FFB447;
-  --answerColor: #66747B;
-  --footerColor: #CCCCCC;
-  --titleColor: #fffc51;
-  --dateColor:  #32cd32;
-  --fillerColor: purple;
+	--mainColor: #F3F9F3;
+	--headerColor: #376FA6;
+	--textColor: #66747B;
+	--highlightColor: #703AAD;
+	--questionColor: #703AAD;
+	--hoverColor: #FFB447;
+	--answerColor: #66747B;
+	--footerColor: #CCCCCC;
+	--titleColor: #fffc51;
+	--dateColor:  black;
+	--fillerColor: purple;
+	--submitColor: #4f92ff;
+	--borderColor: black;
+	--fillColor: #FFEA75;
 }
 
 body
 {
-  background-color: var(--mainColor);
-  font-family: "Open Sans";
-  margin: 0;
+	background-color: var(--mainColor);
+	font-family: "Open Sans";
+	margin: 0;
+}
+
+#overall
+{
+	position: fixed;
+	background-color: var(--headerColor);
+	margin: 0;
+	height: 5%;
+	z-index: 100;
+	border-bottom: thick solid var(--borderColor);
+}
+
+.overallHeading
+{
+	height: 100%; 
+	width: 100%;	
 }
 
 #logo
 {
 	float: left;
-	width: 10%;
+	height: 100%;
 }
 
 #navigate
@@ -36,7 +55,7 @@ body
 	text-align: right;
 
 	font-size: 24px;
-	color: var(--headerColor);
+	color: var(--borderColor);
 	font-weight: bold;
 }
 
@@ -48,7 +67,7 @@ body
 #navigate a
 {
 	text-decoration: none;
-	color: var(--headerColor);
+	color: var(--borderColor);
 }
 
 .aboutHeader
@@ -60,24 +79,31 @@ body
 	font-family: "Open Sans";
 }
 
-.mainBackground { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
-   height: 80%;
+.mainBackground 
+{ 
+	position: relative; 
+	width: 100%; /* for IE 6 */
+	height: 80%;
 }
 
 .title 
 { 
-   position: absolute; 
-   top: 15%; 
-   left: 0; 
-   width: 100%; 
-   
-   color: var(--titleColor);
-   text-align: center;
-   font-size: 96px;
-   font-weight: bold;
-   font-family: 'Source Sans Pro';
+	position: absolute; 
+	top: 15%; 
+	left: 0; 
+	width: 100%; 
+
+	color: var(--titleColor);
+	text-align: center;
+	font-size: 96px;
+	font-weight: bold;
+	font-family: 'Source Sans Pro';
+}
+
+.titleSlide
+{
+	background-color: var(--fillColor);
+	
 }
 
 .header
@@ -88,43 +114,45 @@ body
 
 .content
 {
-	position:fixed;
-    top: 6%;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    overflow-y:scroll;   
+	border-top: thick solid var(--borderColor);
+	top: 6%;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	overflow-y:hidden;  
+	overflow-x:hidden;   	
 }
 
 .date
 {
 	position: absolute;
-	top: 40%;;
+	top: 55%;
+	left: 12.5%;
 	width: 100%;
 	text-align: center;
 	color: var(--dateColor); 
-	font-weight: normal;
-	font-size: 36px;
+	font-weight: 900;
+	font-size: 20px;
 	font-family: Helvetica;
 }
 
 .signup
 {
 	position: absolute;
-	top: 67.5%;
-	left: -10%;
+	top: 70%;
+	left: 12.5%;
 	width: 100%;
 	text-align: center;
 	color: var(--dateColor); 
-	font-size: 40px;
+	font-size: 28px;
 	font-weight: normal;
 }
 
 .signupForm
 {
 	position: absolute;
-	left: 11%;
-	top: 75%;
+	left: 12.5%;
+	top: 82.5%;
 	width: 100%;
 	text-align:center;
 }
@@ -132,14 +160,27 @@ body
 .email
 {
 	height: 30px;
-	width: 20em;
+	width: 19em;
 	font-family: Helvetica;
+}
+
+.submitButton
+{
+	background-color: var(--submitColor);
+	border: none;
+	height: 30px;
+	width: 5em;
+	font-size: 22px;
+	vertical-align: top;
+	border-radius: 4px;
 }
 
 .filler
 {
+	margin: 0;
 	padding-left: 5%;
 	padding-right: 5%;
+	padding-bottom: 5%;
 	font-size: 24px;
 	color: purple;
 }
@@ -169,7 +210,7 @@ body
 	text-align: center;
 	padding-left: 2%;
 	padding-right: 2%;
-	font-size: 20px;
+	font-size: 24px;
 	color: var(--textColor);
 	border-right: solid var(--textColor);
 	margin-bottom: 1%;	
@@ -265,13 +306,14 @@ body
 	color: var(--answerColor);
 }
 
-#footer {
-   position:absolute;
-   width:100%;
-   margin-left: 0%;
-   height:8%;   /* Height of the footer */
-   background: var(--footerColor);
-   /*bottom: 0;  if not scroll*/
+#footer
+{
+	position:absolute;
+	width:100%;
+	margin-left: 0%;
+	height:8%;   /* Height of the footer */
+	background: var(--footerColor);
+	/*bottom: 0;  if not scroll*/
 }
 
 #iconbar
