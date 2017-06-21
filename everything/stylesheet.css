@@ -13,6 +13,7 @@
 	--fillerColor: purple;
 	--submitColor: #4f92ff;
 	--borderColor: black;
+	--fillColor: #FFEA75;
 }
 
 body
@@ -167,12 +168,13 @@ body
 
 .filler
 {
+	margin: 0;
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-bottom: 5%;
 	font-size: 24px;
 	color: purple;
-	background-color: var(--hoverColor);
+	background-color: var(--fillColor);
 }
 
 .filler hr
