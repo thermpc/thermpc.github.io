@@ -96,6 +96,12 @@ body
 	font-family: 'Source Sans Pro';
 }
 
+.titleSlide
+{
+	background-color: var(--fillColor);
+	
+}
+
 .header
 {
 	position:fixed;
@@ -174,7 +180,6 @@ body
 	padding-bottom: 5%;
 	font-size: 24px;
 	color: purple;
-	background-color: var(--fillColor);
 }
 
 .filler hr
