@@ -1,38 +1,23 @@
 :root
 {
-	--mainColor: #F3F9F3;
-	--headerColor: #376FA6;
-	--textColor: #66747B;
-	--highlightColor: #703AAD;
-	--questionColor: #703AAD;
-	--hoverColor: #FFB447;
-	--answerColor: #66747B;
-	--footerColor: #CCCCCC;
-	--titleColor: #fffc51;
-	--dateColor:  black;
-	--fillerColor: purple;
-	--submitColor: #4f92ff;
-	--borderColor: black;
-	--fillColor: #FFEA75;
+  --mainColor: #F3F9F3;
+  --headerColor: #376FA6;
+  --textColor: #66747B;
+  --highlightColor: #703AAD;
+  --questionColor: #703AAD;
+  --hoverColor: #FFB447;
+  --answerColor: #66747B;
+  --footerColor: #CCCCCC;
+  --titleColor: #fffc51;
+  --dateColor:  #32cd32;
+  --fillerColor: purple;
 }
 
 body
 {
-	background-color: var(--mainColor);
-	font-family: "Open Sans";
-	margin: 0;
-}
-
-#overall
-{
-	background-color: var(--headerColor);
-	margin: 0;
-}
-
-.overallHeading
-{
-	height: 6%; 
-	width: 100%;	
+  background-color: var(--mainColor);
+  font-family: "Open Sans";
+  margin: 0;
 }
 
 #logo
@@ -51,7 +36,7 @@ body
 	text-align: right;
 
 	font-size: 24px;
-	color: var(--borderColor);
+	color: var(--headerColor);
 	font-weight: bold;
 }
 
@@ -63,7 +48,7 @@ body
 #navigate a
 {
 	text-decoration: none;
-	color: var(--borderColor);
+	color: var(--headerColor);
 }
 
 .aboutHeader
@@ -75,31 +60,24 @@ body
 	font-family: "Open Sans";
 }
 
-.mainBackground 
-{ 
-	position: relative; 
-	width: 100%; /* for IE 6 */
-	height: 80%;
+.mainBackground { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   height: 80%;
 }
 
 .title 
 { 
-	position: absolute; 
-	top: 15%; 
-	left: 0; 
-	width: 100%; 
-
-	color: var(--titleColor);
-	text-align: center;
-	font-size: 96px;
-	font-weight: bold;
-	font-family: 'Source Sans Pro';
-}
-
-.titleSlide
-{
-	background-color: var(--fillColor);
-	
+   position: absolute; 
+   top: 15%; 
+   left: 0; 
+   width: 100%; 
+   
+   color: var(--titleColor);
+   text-align: center;
+   font-size: 96px;
+   font-weight: bold;
+   font-family: 'Source Sans Pro';
 }
 
 .header
@@ -110,46 +88,43 @@ body
 
 .content
 {
-	border-top: thick solid var(--borderColor);
 	position:fixed;
-	top: 6%;
-	left:0px;
-	right:0px;
-	bottom:0px;
-	overflow-y:scroll;  
-	overflow-x:hidden;   	
+    top: 6%;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll;   
 }
 
 .date
 {
 	position: absolute;
-	top: 55%;
-	left: 12.5%;
+	top: 40%;;
 	width: 100%;
 	text-align: center;
 	color: var(--dateColor); 
-	font-weight: 900;
-	font-size: 20px;
+	font-weight: normal;
+	font-size: 36px;
 	font-family: Helvetica;
 }
 
 .signup
 {
 	position: absolute;
-	top: 70%;
-	left: 12.5%;
+	top: 67.5%;
+	left: -10%;
 	width: 100%;
 	text-align: center;
 	color: var(--dateColor); 
-	font-size: 28px;
+	font-size: 40px;
 	font-weight: normal;
 }
 
 .signupForm
 {
 	position: absolute;
-	left: 12.5%;
-	top: 82.5%;
+	left: 11%;
+	top: 75%;
 	width: 100%;
 	text-align:center;
 }
@@ -157,27 +132,14 @@ body
 .email
 {
 	height: 30px;
-	width: 19em;
+	width: 20em;
 	font-family: Helvetica;
-}
-
-.submitButton
-{
-	background-color: var(--submitColor);
-	border: none;
-	height: 30px;
-	width: 5em;
-	font-size: 22px;
-	vertical-align: top;
-	border-radius: 4px;
 }
 
 .filler
 {
-	margin: 0;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-bottom: 5%;
 	font-size: 24px;
 	color: purple;
 }
@@ -207,7 +169,7 @@ body
 	text-align: center;
 	padding-left: 2%;
 	padding-right: 2%;
-	font-size: 24px;
+	font-size: 20px;
 	color: var(--textColor);
 	border-right: solid var(--textColor);
 	margin-bottom: 1%;	
@@ -303,14 +265,13 @@ body
 	color: var(--answerColor);
 }
 
-#footer
-{
-	position:absolute;
-	width:100%;
-	margin-left: 0%;
-	height:8%;   /* Height of the footer */
-	background: var(--footerColor);
-	/*bottom: 0;  if not scroll*/
+#footer {
+   position:absolute;
+   width:100%;
+   margin-left: 0%;
+   height:8%;   /* Height of the footer */
+   background: var(--footerColor);
+   /*bottom: 0;  if not scroll*/
 }
 
 #iconbar
