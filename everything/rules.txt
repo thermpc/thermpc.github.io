@@ -1,62 +1,50 @@
  
-University of Maryland High School Programming Contest Rules and Information
+Richard Montgomery Programming Competition Rules and Information
 
------------------
-Contest Specifics
------------------
 
-   1.Each team will use ONE computer --- other computers in the
-     labs must stay powered down. No computer equipment may be
-     brought into the contest area, except for one USB mouse per team. 
+##### Specifics #####
 
-   2.Teams are allowed to bring a reasonable number of computer 
-     books and/or notebooks into the contest area for use during 
+   1. Each team will use ONE computer -- teams should bring their own laptop. No computer equipment may be
+     brought into the competition areas, except for one USB mouse per team. 
+
+   2. Teams are allowed to bring a reasonable number of non-electronic reference material and/or notebooks into the contest area for use during 
      the contest.  Teams are NOT ALLOWED to bring a disk, software,
      or machine-readable software into the contest area.
 
-   3.Teams will not have their own printer. A network printer will
-     be accessible. 
+   3. Teams will be able to access a printer over the network through the submission server. Teams will NOT have personal access to a printer during the competition. 
 
-   4.No food or drink in the labs. There will be lunch before the
-     contest, and refreshments supplied afterwords. 
+   4. Teams should avoid bringing food into the competition rooms. Lunch will be provided after the morning practice session, and before the competition in the afternoon.
 
-   5.Any questions to the judges should be submitted online using the 
-     Contest Forum software.  All questions are submitted in private.
-     Each question will be acknowledged, although the judges may refuse 
-     to answer any question. The question and its answer may be 
-     provided to all contestants if it seems relevant. 
+   5. Any questions to the judges should be submitted online using the 
+     provided service in the submission software.  All questions are submitted in private.
+     All questions will be read, although it is the judges' discretion as to whether an answer will be provided. If a question is found to be of pertinence to all teams, the question and answer will be displayed to all teams.
 
-   6.The only discussion permitted is within a team and with the
+   6. The only during-competition discussion permitted is within a team and with the
      contest staff.  Teams are not allowed to use telephones, cell 
      phones, pagers, or other wireless devices to contact or talk 
-     to anyone else during the contest.
+     to anyone else during the competition.
 
-   7.Teams are allowed to use calculators (hand-held or the built-in
-     Windows calculator).  Teams are not allowed to use non-contest
-     software on their computers.  Teams are not allowed to use 
-     web browsers, telnet, ssh, ftp, or other networking software 
-     to obtain help on their contest problems.
+   7. Teams are allowed to use calculators (hand-held or a built-in calculator in the OS).  Teams are not allowed to use non-contest
+     software on their computers.  Additionally, teams are not allowed to use 
+     web browsers or other networking software 
+     to obtain help on their contest problems. Teams will connect to the provided network during the competition, which is restricted to allow access only to the competition website for downloading of competition relevant materials. You will need to be connected to this network to submit solutions for grading. Teams found circumventing the network restriction or connecting to other networks to access un-authorized material will be disqualified.
 
-   8.You may work on the problems in any order, and submit them in
-     any order. 
+   8. Teams may work on and submit problems in any order.
 
-   9.Your programs must not do any file input or output. All contest
-     input will come from stdin -- that is, the keyboard, and all
-     output must go to stdout -- that is, to the console. 
+   9. Your programs should read and write using file I/O. Teams should NOT read from STDIN or print to STDOUT, as this will result in your program being judged as incorrect. Stubs will be provided for each problem that will handle the file I/O, although teams are not required to use the stubs.
 
-  10.You need consider the efficiency of your algorithms to make sure
-     it will take less than 1 minute of running time. For some of the
+  10. Teams should the efficiency of their solutions to make sure
+    they will run in the specified time. Each problem will either have specified time constraint, or else the program should run in less than 1 minute. For some of the
      problems there exist solutions that might work, but are so
-     inefficient that they will not finish in the allowed time. 
+     inefficient that they will not finish within the time constraint. 
 
-  11.To receive credit for a problem solution, you must turn it in for
-     judging, using the PC^2 software. 
+  11. To receive credit for a problem solution, you must turn it in for
+     judging using the provided submission software. 
 
-  12.The judges' decision is FINAL. 
+  12. The judges' decision is FINAL. Teams that are found to be in violation of any of the specified rules may be disqualified at the judges' discretion. There will be people present in each competition room that can assist teams with any software or other related issues, although they have no knowledge of the competition problems and cannot (and should not) provide assistance with solving problems.
 
-----------------
-Scoring
-----------------
+
+##### Scoring #####
 
 The team that has had the most problems judged correct at the end of
 the contest will be declared the winner. If more than one team has
@@ -68,81 +56,21 @@ accumulates one penalty point for each minute from the beginning of
 the contest until the time of a correct submission. Twenty penalty 
 points are assessed for each incorrect submission. 
 
-The contest director reserves the right to adjust penalty points to 
+The judges and organizers reserve the right to adjust penalty points to 
 allow for unforeseen circumstances. 
 
--------------------
-Eclipse Environment
--------------------
+##### Competition Environment #####
 
-The Eclipse Java development environment is provided in 
-/Applications/eclipse.  Each contest problem should appear as
-a project in Eclipse, and includes the following files:
+Teams will be placed into classrooms on the third floor of the high school. This floor and the classrooms serve as the competition area. Teams should not leave the area during practice and competition time unless authorized and accompanied by competition staff. There will be approximately 5 teams in each classroom, and each team will be provided their own individual space to work. Outlets and power strips will be provided. 
 
- - <problem>.java     Skeleton solution code
+Teams will be allowed to use Python 3.6, Java 7, or C++11 for their solutions. Teams will be allowed to use whatever IDE or development environment they wish, but must submit their solutions using the provided submission software. The website will have the problem set and solution stubs for each problem available for download throughout the competition. Teams will only be able to access the competition website while connected to the network during the competition.
 
- - 01.in              Sample input data
 
- - 01.out             Expected output for sample input data
+##### Submitting Solutions #####
 
- - my.in              Placeholder for making up your own input data
+EDIT: TODO
 
- - TryTest.java       Will run your solution code for 01.in and compare 
-                      its output to 01.out.  Repeat run for my.in.
 
-The project files are in the Eclipse workspace directory.
+##### Competition Website #####
 
----------------------
-PC^2 Contest Software
----------------------
-
-The contest will use the PC^2 software.  Once you believe your solution
-code works (it should at least pass the sample input data in TryTest),
-you may use the PC^2 software to submit your code to the judges.
-
-The submission process should proceed as follows:
-
- 1) From the "Submit Run" tab, select the contest problem. 
-
- 2) Select the main java file (the one provided as part of 
-    the skeleton solution).
-
- 3) Select any additional java files you added to the main java file.
-
- 4) Use the "Test" button to ensure your solution code works properly
-    for sample input data, when tested using the same environment
-    as the contest server.
-
- 5) Use the "Submit" button to submit your contest problem solution.
-
-You can use the "View Runs" tab to check the status of your submissions,
-and use the "Request Clarification" tab to ask private questions about 
-the contest problems.
-
-----------------
-Contest Web Page
-----------------
-
-The contest web page provides a number of links:
-
-Observers 
-     This will show the current scores of all the teams. The 
-     ScoreBoard will be updated every few minutes. The scores 
-     hyperlink will be disabled during the last 30 minutes 
-     of the contest. 
-
-Contest Problems 
-     Once the contest starts, this will provide a description 
-     of all the contest problems identical to the paper version.
-
-Contest Rules 
-     Rules for the contest
-
-Eclipse Info 
-     Basic information on the Eclipse environment.
-
-PC^2 Guide 
-     A tutorial on how to use the PC^2 contest software.
-
-Java API (1.6) - 
-     A description of the Java 1.6 API, including class libraries.
+EDIT: TODO
