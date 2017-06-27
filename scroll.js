@@ -70,7 +70,7 @@ $(window).scroll(function (event)
 function scrollPosition()
 {
     var scroll = $(window).scrollTop();
-    if(scroll>=600)
+    if(scroll>=0.6*screen.height)
     {
       $("#titleLink").addClass("unselected");
     }
@@ -80,7 +80,7 @@ function scrollPosition()
       $("#titleLink").removeClass("unselected");
     }
 
-    if(scroll<600 || scroll>=600+screen.height)
+    if(scroll<0.6*screen.height || scroll>=1.6*screen.height)
     {
       $("#aboutLink").addClass("unselected");
     }
@@ -89,7 +89,7 @@ function scrollPosition()
       $("#aboutLink").removeClass("unselected");
     }
 
-    if(scroll<600+screen.height || scroll>=600+2*screen.height)
+    if(scroll<1.6*screen.height || scroll>=2.6*screen.height)
     {
       $("#scheduleLink").addClass("unselected");
     }
@@ -98,7 +98,7 @@ function scrollPosition()
       $("#scheduleLink").removeClass("unselected");
     }
 
-    if(scroll<600+2*screen.height || scroll>=600+3*screen.height)
+    if(scroll<2.6*screen.height || scroll>=3.6*screen.height)
     {
       $("#problemsLink").addClass("unselected");
     }
@@ -107,7 +107,7 @@ function scrollPosition()
       $("#problemsLink").removeClass("unselected");
     }
 
-    if(scroll<600+3*screen.height || scroll>=600+3.2*screen.height)
+    if(scroll<3.6*screen.height || scroll>=3.8*screen.height)
     {
       $("#faqLink").addClass("unselected");
     }
@@ -116,7 +116,7 @@ function scrollPosition()
       $("#faqLink").removeClass("unselected");
     }
 
-    if(scroll<600+3.2*screen.height)
+    if(scroll<3.8*screen.height)
     {
       $("#footerLink").addClass("unselected");
     }
