@@ -70,41 +70,61 @@ $(window).scroll(function (event)
 function scrollPosition()
 {
     var scroll = $(window).scrollTop();
-    if(scroll<=600)
+    if(scroll>=600)
     {
-      $("#introButton").addClass("filled");
+      $("#titleLink").addClass("unselected");
     }
     else
     {
       console.log(scroll);
-      $("#introButton").removeClass("filled");
+      $("#titleLink").removeClass("unselected");
     }
 
-    if(scroll>600 && scroll<=1600)
+    if(scroll<600 || scroll>=1600)
     {
-      $("#aboutButton").addClass("filled");
+      $("#aboutLink").addClass("unselected");
     }
     else
     {
-      $("#aboutButton").removeClass("filled");
+      $("#aboutLink").removeClass("unselected");
     }
 
-    if(scroll>1600 && scroll<=2600)
+    if(scroll<1600 || scroll>=2600)
     {
-      $("#sampleButton").addClass("filled");
+      $("#scheduleLink").addClass("unselected");
     }
     else
     {
-      $("#sampleButton").removeClass("filled");
+      $("#scheduleLink").removeClass("unselected");
     }
 
-    if(scroll>2600)
+    if(scroll<2600 || scroll>=3600)
     {
-      $("#contactButton").addClass("filled");
+      $("#problemsLink").addClass("unselected");
     }
     else
     {
-      $("#contactButton").removeClass("filled");
+      $("#problemsLink").removeClass("unselected");
     }
+
+    if(scroll<3600 || scroll>=4100)
+    {
+      $("#faqLink").addClass("unselected");
+    }
+    else
+    {
+      $("#faqLink").removeClass("unselected");
+    }
+
+    if(scroll<4100)
+    {
+      $("#footerLink").addClass("unselected");
+    }
+    else
+    {
+      $("#footerLink").removeClass("unselected");
+    }
+
+
 }
 

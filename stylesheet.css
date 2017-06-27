@@ -67,12 +67,18 @@ body
 
 #navigate a
 {
-	text-decoration: none;
 	color: var(--borderColor);
+}
+
+.unselected
+{
+	text-decoration: none;
 }
 
 .aboutHeader
 {
+	padding-top: 3%;
+	padding-bottom: 3%;
 	text-align: center;
 	color: var(--headerColor);
 	font-size: 64px;
@@ -104,7 +110,11 @@ body
 .titleSlide
 {
 	background-color: var(--fillColor);
-	
+}
+
+.titleSlide, .aboutSlide, .scheduleSlide, .problemsSlide, .faqSlide
+{
+	height: 100%;
 }
 
 .header
@@ -204,9 +214,15 @@ body
 	padding-top: 1%;
 }
 
+#columnSection{
+	position: absolute;
+	height: 40%;
+}
+
 .column
 {
 	width: 20%;
+	height: 100%;
 	float: left;
 	text-align: center;
 	padding-left: 2%;
@@ -215,7 +231,7 @@ body
 	color: var(--textColor);
 	border-right: solid var(--textColor);
 	margin-bottom: 1%;	
-	border-spacing:4 px;	
+	border-spacing:4px;	
 }
 
 .last
@@ -305,6 +321,7 @@ body
 	text-align: center;
 	font-size: 24px;
 	color: var(--answerColor);
+	padding-bottom: 2%;
 }
 
 #footer
