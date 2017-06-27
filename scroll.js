@@ -80,7 +80,7 @@ function scrollPosition()
       $("#titleLink").removeClass("unselected");
     }
 
-    if(scroll<600 || scroll>=1600)
+    if(scroll<600 || scroll>=600+screen.height)
     {
       $("#aboutLink").addClass("unselected");
     }
@@ -89,7 +89,7 @@ function scrollPosition()
       $("#aboutLink").removeClass("unselected");
     }
 
-    if(scroll<1600 || scroll>=2600)
+    if(scroll<600+screen.height || scroll>=600+2*screen.height)
     {
       $("#scheduleLink").addClass("unselected");
     }
@@ -98,7 +98,7 @@ function scrollPosition()
       $("#scheduleLink").removeClass("unselected");
     }
 
-    if(scroll<2600 || scroll>=3600)
+    if(scroll<600+2*screen.height || scroll>=600+3*screen.height)
     {
       $("#problemsLink").addClass("unselected");
     }
@@ -107,7 +107,7 @@ function scrollPosition()
       $("#problemsLink").removeClass("unselected");
     }
 
-    if(scroll<3600 || scroll>=4100)
+    if(scroll<600+3*screen.height || scroll>=600+3.2*screen.height)
     {
       $("#faqLink").addClass("unselected");
     }
@@ -116,7 +116,7 @@ function scrollPosition()
       $("#faqLink").removeClass("unselected");
     }
 
-    if(scroll<4100)
+    if(scroll<600+3.2*screen.height)
     {
       $("#footerLink").addClass("unselected");
     }
