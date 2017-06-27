@@ -1,0 +1,262 @@
+<html>
+
+	<head>
+	
+		<title> RM Programming Competition </title> 
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+		<script src="faq.js"> </script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="scroll.js"> </script>
+	
+	</head>
+	
+	<body>
+	
+		<div class="overallHeading" id = "overall">
+			
+			<img src="Images/logo.png" alt="Logo" id="logo">
+			
+			<div id="navigate">
+			
+				<div> <a href="#title"> <u> Main </u> </a> </div> 
+				<div> <a href="#about"> About </a> </div> 
+				<div> <a href="#schedule"> Schedule  </a> </div>
+				<div> <a href="#problems"> Problems </a> </div>
+				<div> <a href="#faq"> FAQ </a> </div>
+				<div> <a href="#footer"> Contact </a> </div>
+			
+			</div>
+		
+		</div>
+		
+		<div class="content">
+	
+			<div class="titleSlide" id="title">
+	
+				<div class="mainBackground">
+
+					<img src="Images/Rocket22.png" alt="Big Rocket" class="backgroundPicture">
+								
+					<br>
+			
+					<h3 class="date"> October 14, 2017 </h3> 	
+					
+					<br>
+					<br>
+					
+					<h2 class="signup"> Join the Email List!:  </h2>
+					
+					<form class="signupForm">
+						<input type="text" name="email" class="email">
+						<input type="submit" value="Submit" class="submitButton">
+					</form>
+					
+				</div>
+
+				<div class="filler"  id ="filler">
+						<hr />
+						
+RMPC is a single-day programming competition for middle and high school students, hosted by the Richard Montgomery High School Computer Team. Registration is free, and prizes will be given to the top three teams in each category.
+						
+			</div>
+			
+				
+			
+			</div>
+			
+			<div class="aboutSlide" id="about">
+			
+				<div class="aboutHeader"> 
+					What is RMPC? 
+				</div>
+			
+				<div class = "column">	
+					<img src="Images/puzzle.png" alt="Puzzle Piece" id="puzzle">
+			
+					<h2> Solve </h2>
+									
+		You and up to three of your friends will work together to solve unique and interesting problems created by us. Our problems will be split into three divisions: middle school, novice, and advanced. 
+		<br> <br> <br>
+					
+					<hr>
+				</div> 
+			
+				<div class = "column">
+					<img src="Images/code.png" alt="Code" id="code">
+					
+					<h2> Code </h2> 
+					
+		Show off your programming skills by coding up solutions to the problems in your division. Our online grader will accept any of the following languages: C++, Java, and Python, all of which are updated to the latest version. 
+				<br>	
+				<br>
+					<hr>
+				</div> 
+				
+				<div class = "column">
+					<img src="Images/trophy.png" alt="Trophy" id="trophy">
+					
+					<h2> Win </h2>
+					
+		Win prizes! Once the competition ends, the top three teams in each division will win cash prizes. This year we have upwards of $600 in prizes! For more information on how we choose the winners, please visit our FAQ.
+					<br>
+					<br>
+					<hr>
+				</div> 
+				
+				<div class = "column last">
+					<img src="Images/people.png" alt="People" id="people">
+					
+					<h2> About Us </h2>
+					
+		We are a group of high school students from the Computer Team at Richard Montgomery High School. After competing and placing rather high in many competitions, we have decided to host our own competition. We hope you will enjoy the first ever RMPC.
+					
+					<hr>
+					
+				</div> 
+				
+				
+			</div>
+			
+			<div class="scheduleSlide">
+								
+				<div class="aboutHeader"> 
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					
+				</div>
+							
+				<div class="aboutHeader" id = "schedule" style="height: 100px"> 
+					Schedule
+				</div>
+			
+			
+				<div class="schedule">
+					<p align = "justify">
+						9:30 - Registration
+						<br>
+						10:30 - Opening Ceremony
+						<br>
+						11:00 - Lunch
+						<br> 
+						1:00 - Competition
+						<br>
+						4:00 - Closing Ceremony
+						<br>
+					</p>
+				</div>
+			</div>
+			
+			<div class="problemsSlide">
+				<div class="aboutHeader" id = "problems">
+					Sample Problems
+				</div>
+
+				<div class = "problems">
+					<table >
+						<tr>
+							<th> Middle School: </th> 
+							<th> <a> Problem </a> </th> 
+							<th> <a> Input </a> </th>
+							<th> <a> Output </a> </th>
+						</tr>
+	
+						 <tr>
+							<th> Novice: </th>
+							<th> <a> Problem </a> </th>
+							<th> <a> Input </a> </th>
+							<th> <a> Output </a> </th>
+						</tr>
+
+						<tr>
+							<th> Advanced: </th>
+							<th> <a> Problem </a> </th>
+							<th> <a> Input </a> </th>
+							<th> <a> Output </a> </th>
+						</tr>	
+					</table>
+				</div>
+			</div>
+			
+			<div class="faqSlide">
+				<div class="aboutHeader" id = "faq">
+					FAQ
+				</div>
+
+				<div class="buttonClass"> 
+				<button class="textButton" type="button" onClick="buttonToggle(1)"> 
+				Where will the competition be located? 
+				</button>
+				</div>	
+				
+				<div id="1button" class="answers"> </div>
+
+				<div class="buttonClass">
+				<button class="textButton" type="button" onClick="buttonToggle(2)">
+				What are the rules? 
+				</button>
+				</div>
+
+				<div id="2button" class="answers"> </div>
+				
+				<div class="buttonClass">
+				<button class="textButton" type="button" onClick="buttonToggle(3)">
+				What are teams sizes? 
+				</button>
+				</div>
+
+				<div id="3button" class="answers"> </div>
+			
+				<div class="buttonClass">
+				<button class="textButton" type="button" onClick="buttonToggle(4)">
+				Do teammates need to be from the same school? 
+				</button>
+				</div>
+
+				<div id="4button" class="answers"> </div>
+			
+				<div class="buttonClass">
+				<button class="textButton" type="button" onClick="buttonToggle(5)">
+				What software will be used in the competition?  
+				</button>
+				</div>
+
+				<div id="5button" class="answers"> </div>
+				
+				<div class="buttonClass">
+				<button class="textButton" type="button" onClick="buttonToggle(6)">
+				What are the prizes? 
+				</button>
+				</div>
+
+				<div id="6button" class="answers"> </div>
+
+				<div class="buttonClass">
+				<button class="textButton" type="button" onClick="buttonToggle(7)">
+				What is the policy about reference materials? 
+				</button>
+				</div>
+
+				<div id="7button" class="answers"> </div>
+			</div>
+			
+			<div id="footer">
+				<div id="iconbar">
+					<a href="mailto:rmpc.contact@gmail.com" onclick="window.open(this.href); return false;"><img src="Images/mail.png" alt="Email" id="mail" class="icon"></a>
+					<a href="http://www.facebook.com" onclick="window.open(this.href); return false;"><img src="Images/facebook.png" alt="Facebook" id="facebook" class="icon"></a><a href="http://www.twitter.com" onclick="window.open(this.href); return false;"><img src="Images/twitter.png" alt="Twitter" id="twitter" class="icon"></a>
+				</div>
+			</div>
+		</div>
+
+
+	
+	</body>
+
+</html>
