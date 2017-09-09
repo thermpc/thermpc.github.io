@@ -159,6 +159,18 @@ body
 	font-weight: bold;
 }
 
+.signup2
+{
+	position: absolute;
+	top: 80%;
+	left: 12.5%;
+	width: 100%;
+	text-align: center;
+	color: var(--dateColor); 
+	font-size: 28px;
+	font-weight: bold;
+}
+
 .signupForm
 {
 	position: absolute;
