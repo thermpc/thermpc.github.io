@@ -140,7 +140,7 @@ body
 .signup
 {
 	position: absolute;
-	top: 70%;
+	/*top: 70%;*/
 	left: 12.5%;
 	width: 100%;
 	text-align: center;
