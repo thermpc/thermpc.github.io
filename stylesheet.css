@@ -150,13 +150,12 @@ body
 .signup
 {
 	position: absolute;
-	top: 70%;
 	left: 12.5%;
 	width: 100%;
 	text-align: center;
 	color: var(--dateColor); 
 	font-size: 28px;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .signupForm
