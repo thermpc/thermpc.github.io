@@ -23,35 +23,14 @@ function buttonToggle(a)
 	if(realElement.innerHTML.length<=1)
 	{	
 		realElement.innerHTML = answers[a-1]
-		counter = 0;
+		counter = 24;
 		realElement.style.fontSize = String(counter+"px");
-		var i = setInterval(function(){
-			realElement.style.fontSize = String(counter)+"px";
-
-			if(counter == 24)
-			{	
-				clearInterval(i)
-			}
-
-			counter+=1	
-			
-		},20);
 	}
 
 	else
 	{
-		counter = 24;
-		var i = setInterval(function(){
-			realElement.style.fontSize = String(counter)+"px";
-		
-
-			if(counter == 2)
-			{
-				realElement.innerHTML = ""
-				clearInterval(i)
-			}
-			counter-=1;
-			},20);
+		counter = 0;
+		realElement.style.fontSize = String(counter)+"px";
 	}
 	
 }
