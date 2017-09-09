@@ -31,6 +31,7 @@ function buttonToggle(a)
 	{
 		counter = 0;
 		realElement.style.fontSize = String(counter)+"px";
+		realElement.innerHTML = "";
 	}
 	
 }
