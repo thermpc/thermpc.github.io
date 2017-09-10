@@ -130,7 +130,7 @@ body
 
 table
 {
-	font-size: 350%;	
+	font-size: 250%;	
 }
 
 .content
@@ -313,7 +313,7 @@ table
 	color: var(--textColor);
 	font-size: 350%;
 	text-align: center;
-	width: 50%;
+	width: 75%;
 	margin-left: 25%;
 	margin-right: 25%;
 }
