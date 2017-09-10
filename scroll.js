@@ -69,60 +69,53 @@ $(window).scroll(function (event)
 
 function scrollPosition()
 {
-    var scroll = $(window).scrollTop();
-    if(scroll>=0.6*screen.height)
+    $("#titleLink").addClass("unselected");
+    $("#aboutLink").addClass("unselected");
+    $("#faqLink").addClass("unselected");
+    $("#problemsLink").addClass("unselected");
+    $("#scheduleLink").addClass("unselected");
+    $("#footerLink").addClass("unselected");
+
+    //var middle = $(window).height()/2;
+    
+
+    var titleHeight = document.getElementById("title").getBoundingClientRect().bottom;
+    var aboutHeight = document.getElementById("about").getBoundingClientRect().bottom;
+    var faqHeight = document.getElementById("faq").getBoundingClientRect().bottom;
+    var problemsHeight = document.getElementById("problems").getBoundingClientRect().bottom;
+    var scheduleHeight = document.getElementById("schedule").getBoundingClientRect().bottom;
+    var footerHeight = document.getElementById("footer").getBoundingClientRect().top;
+
+    var middle = screen.height/2;
+
+    if(titleHeight >= middle)
     {
-      $("#titleLink").addClass("unselected");
-    }
-    else
-    {
-      console.log(scroll);
       $("#titleLink").removeClass("unselected");
     }
-
-    if(scroll<0.6*screen.height || scroll>=1.6*screen.height)
-    {
-      $("#aboutLink").addClass("unselected");
-    }
-    else
+    
+    else if(aboutHeight >= middle)
     {
       $("#aboutLink").removeClass("unselected");
     }
-
-    if(scroll<1.6*screen.height || scroll>=2.6*screen.height)
-    {
-      $("#faqLink").addClass("unselected");
-    }
-    else
+    
+    else if(faqHeight >= middle)
     {
       $("#faqLink").removeClass("unselected");
     }
-
-    if(scroll<2.6*screen.height || scroll>=3.6*screen.height)
-    {
-      $("#problemsLink").addClass("unselected");
-    }
-    else
+    
+    else if(problemsHeight >= middle)
     {
       $("#problemsLink").removeClass("unselected");
     }
-
-    if(scroll<3.6*screen.height || scroll>=3.8*screen.height)
+    
+    else if(footerHeight < screen.height)
     {
-      $("#scheduleLink").addClass("unselected");
+      $("#footerLink").removeClass("unselected");
     }
+    
     else
     {
       $("#scheduleLink").removeClass("unselected");
-    }
-
-    if(scroll<3.8*screen.height)
-    {
-      $("#footerLink").addClass("unselected");
-    }
-    else
-    {
-      $("#footerLink").removeClass("unselected");
     }
 
 
