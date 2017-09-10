@@ -1,76 +1,51 @@
- 
+
 Richard Montgomery Programming Competition Rules and Information
 
 
 ##### Specifics #####
 
-   1. Each team will use ONE computer -- teams should bring their own laptop. No computer equipment may be
-     brought into the competition areas, except for one USB mouse per team. 
+   1. Each team will use ONE computer -- teams should bring their own laptop. No computer equipment may be brought into the competition areas, except for one USB mouse per team. 
 
-   2. Teams are allowed to bring a reasonable number of non-electronic reference material and/or notebooks into the contest area for use during 
-     the contest.  Teams are NOT ALLOWED to bring a disk, software,
-     or machine-readable software into the contest area.
+   2. Teams are allowed to bring a reasonable number of non-electronic reference material and/or notebooks into the contest area for use during  the contest. Teams are NOT ALLOWED to bring a disk, software, or machine-readable software into the contest area.
 
    3. Teams will be able to access a printer over the network through the submission server. Teams will NOT have personal access to a printer during the competition. 
 
    4. Teams should avoid bringing food into the competition rooms. Lunch will be provided after the morning practice session, and before the competition in the afternoon.
 
-   5. Any questions to the judges should be submitted online using the 
-     provided service in the submission software.  All questions are submitted in private.
-     All questions will be read, although it is the judges' discretion as to whether an answer will be provided. If a question is found to be of pertinence to all teams, the question and answer will be displayed to all teams.
+   5. Any questions to the judges should be submitted online using the provided service in the submission software.  All questions are submitted in private. All questions will be read, although it is the judges' discretion as to whether an answer will be provided. If a question is found to be of pertinence to all teams, the question and answer will be displayed to all teams.
 
-   6. The only during-competition discussion permitted is within a team and with the
-     contest staff.  Teams are not allowed to use telephones, cell 
-     phones, pagers, or other wireless devices to contact or talk 
-     to anyone else during the competition.
+   6. The only during-competition discussion permitted is within a team and with the contest staff.  Teams are not allowed to use telephones, cell phones, pagers, or other wireless devices to contact or talk to anyone else during the competition.
 
-   7. Teams are allowed to use calculators (hand-held or a built-in calculator in the OS).  Teams are not allowed to use non-contest
-     software on their computers.  Additionally, teams are not allowed to use 
-     web browsers or other networking software 
-     to obtain help on their contest problems. Teams will connect to the provided network during the competition, which is restricted to allow access only to the competition website for downloading of competition relevant materials. You will need to be connected to this network to submit solutions for grading. Teams found circumventing the network restriction or connecting to other networks to access un-authorized material will be disqualified.
+   7. Teams are allowed to use calculators (either hand-held or a built-in calculator in the OS).  Teams are not allowed to use non-contest software on their computers.  Additionally, teams are not allowed to use web browsers or other networking software to obtain help on their contest problems. Teams will connect to the provided network during the competition, which is restricted to allow access only to the competition website for downloading of competition relevant materials. You will need to be connected to this network to submit solutions for grading. Teams found circumventing the network restriction or connecting to other networks to access unauthorized material will be disqualified.
 
    8. Teams may work on and submit problems in any order.
 
    9. Your programs should read and write using file I/O. Teams should NOT read from STDIN or print to STDOUT, as this will result in your program being judged as incorrect. Stubs will be provided for each problem that will handle the file I/O, although teams are not required to use the stubs.
 
-  10. Teams should the efficiency of their solutions to make sure
-    they will run in the specified time. Each problem will either have specified time constraint, or else the program should run in less than 1 minute. For some of the
-     problems there exist solutions that might work, but are so
-     inefficient that they will not finish within the time constraint. 
+  10. Teams should the efficiency of their solutions to make sure they will run in the specified time. Each problem will either have specified time constraint, or else the program should run in less than 1 minute. For some of the problems there exist solutions that might work, but will run too slowly to provide the solution within the time limit.
 
-  11. To receive credit for a problem solution, you must turn it in for
-     judging using the provided submission software. 
+  11. To receive credit for a problem solution, you must turn it in for judging using the provided submission software. 
 
   12. The judges' decision is FINAL. Teams that are found to be in violation of any of the specified rules may be disqualified at the judges' discretion. There will be people present in each competition room that can assist teams with any software or other related issues, although they have no knowledge of the competition problems and cannot (and should not) provide assistance with solving problems.
 
 
 ##### Scoring #####
 
-The team that has had the most problems judged correct at the end of
-the contest will be declared the winner. If more than one team has
-solved the same number of problems, the winner is the one with the
-fewest penalty points. 
+The team that has had the most problems judged correct at the end of the contest will be declared the winner. If more than one team has solved the same number of problems, the winner is the one with the fewest penalty points. 
 
-Penalty points are assessed for solved problems only. Each problem
-accumulates one penalty point for each minute from the beginning of 
-the contest until the time of a correct submission. Twenty penalty 
-points are assessed for each incorrect submission. 
+Penalty points are assessed for solved problems only. Each problem accumulates one penalty point for each minute from the beginning of  the contest until the time of a correct submission. Twenty penalty points are assessed for each incorrect submission. 
 
-The judges and organizers reserve the right to adjust penalty points to 
-allow for unforeseen circumstances. 
+The judges and organizers reserve the right to adjust penalty points to allow for unforeseen circumstances. 
 
 ##### Competition Environment #####
 
 Teams will be placed into classrooms on the third floor of the high school. This floor and the classrooms serve as the competition area. Teams should not leave the area during practice and competition time unless authorized and accompanied by competition staff. There will be approximately 5 teams in each classroom, and each team will be provided their own individual space to work. Outlets and power strips will be provided. 
 
-Teams will be allowed to use Python 3.6, Java 7, or C++11 for their solutions. Teams will be allowed to use whatever IDE or development environment they wish, but must submit their solutions using the provided submission software. The website will have the problem set and solution stubs for each problem available for download throughout the competition. Teams will only be able to access the competition website while connected to the network during the competition.
+Teams will be allowed to use Python 3.6, Java 7, or C++11 for their solutions. Teams will be allowed to use whatever IDE or development environment they wish, but must submit their solutions using the provided submission software. Teams should ensure that they have downloaded whatever software they will be using during the competition onto their laptop of choice prior to the date of the competition. The website will have the problem set and solution stubs for each problem available for download throughout the competition. Teams will only be able to access the competition website while connected to the network during the competition.
 
 
 ##### Submitting Solutions #####
 
-EDIT: TODO
+Solutions will be submitted using the PC^2 software. Competitors should ensure that they have downloaded the PC^2 software, as well as the programming languages that they wish to use and any IDE, text editor, or other development environment. The warmup time will be used to ensure that participants are able to submit solutions to the server for grading.
 
 
-##### Competition Website #####
-
-EDIT: TODO
