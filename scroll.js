@@ -13,7 +13,7 @@ $(document).ready(function(){
       // The 50 is for offset due to the header. Fix that if necessary.
       $('html, body').animate(
         {
-          scrollTop: $(hash).offset().top-50
+          scrollTop: $(hash).offset().top-5
         }, 
         800, 
         function()
