@@ -91,11 +91,11 @@ function scrollPosition()
 
     if(scroll<1.6*screen.height || scroll>=2.6*screen.height)
     {
-      $("#scheduleLink").addClass("unselected");
+      $("#faqLink").addClass("unselected");
     }
     else
     {
-      $("#scheduleLink").removeClass("unselected");
+      $("#faqLink").removeClass("unselected");
     }
 
     if(scroll<2.6*screen.height || scroll>=3.6*screen.height)
@@ -109,11 +109,11 @@ function scrollPosition()
 
     if(scroll<3.6*screen.height || scroll>=3.8*screen.height)
     {
-      $("#faqLink").addClass("unselected");
+      $("#scheduleLink").addClass("unselected");
     }
     else
     {
-      $("#faqLink").removeClass("unselected");
+      $("#scheduleLink").removeClass("unselected");
     }
 
     if(scroll<3.8*screen.height)

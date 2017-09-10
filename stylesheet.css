@@ -112,9 +112,14 @@ body
 	background-color: var(--fillColor);
 }
 
-.titleSlide, .aboutSlide, .scheduleSlide, .problemsSlide, .faqSlide
+.titleSlide, .aboutSlide, .problemsSlide, .faqSlide
 {
 	height: 100%;
+}
+
+.scheduleSlide
+{
+	height: 85%;
 }
 
 .header
