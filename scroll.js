@@ -84,7 +84,7 @@ function scrollPosition()
     var faqHeight = document.getElementById("faq").getBoundingClientRect().bottom;
     var problemsHeight = document.getElementById("problems").getBoundingClientRect().bottom;
     var scheduleHeight = document.getElementById("schedule").getBoundingClientRect().bottom;
-    var footerHeight = document.getElementById("footer").getBoundingClientRect().top;
+    var footerHeight = document.getElementById("footer").getBoundingClientRect().bottom;
 
     var middle = screen.height/2;
 
