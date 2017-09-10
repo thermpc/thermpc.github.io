@@ -311,7 +311,7 @@ table
 .problems table
 {
 	color: var(--textColor);
-	font-size: 28px;
+	font-size: 350%;
 	text-align: center;
 	width: 50%;
 	margin-left: 25%;
