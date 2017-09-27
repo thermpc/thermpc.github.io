@@ -6,7 +6,7 @@ Richard Montgomery Programming Competition Rules and Information
 
    1. Each team will use ONE computer -- teams should bring their own laptop. No computer equipment may be brought into the competition areas, except for one USB mouse per team. 
 
-   2. Teams are allowed to bring a reasonable number of non-electronic reference material and/or notebooks into the contest area for use during  the contest. Teams are NOT ALLOWED to bring a disk, software, or machine-readable software into the contest area.
+   2. Teams are allowed to bring a reasonable number of non-electronic reference material and/or notebooks into the contest area for use during  the contest. Teams are NOT ALLOWED to bring a disk, software, or machine-readable software into the contest area. Teams are NOT allowed to have prewritten code on their laptops, however having prewritten notes in notebooks is okay.
 
    3. Teams will NOT be able to access a printer over the network through the submission server. 
 
