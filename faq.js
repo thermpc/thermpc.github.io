@@ -2,7 +2,7 @@ var answers = ["The competition will be located at Richard Montgomery High Schoo
 "The rules are listed <u> <a href='rules.txt'> here </a> </u>",
 "Teams have anywhere from 1 to 4 people",
 "Teammates do not need to be from the same school",
-"Python 3.6, Java 8 and C++ 11 will be used",
+"Python 3.6.3, Java 8 and C++ 14 will be used",
 "The prizes are giftcards for the top 3 high school teams, and top middle school team",
 "Teams may bring as many non-electronic reference materials as they desire"]
 var counter;
