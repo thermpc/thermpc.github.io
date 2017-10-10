@@ -20,7 +20,7 @@ Richard Montgomery Programming Competition Rules and Information
 
    8. Teams may work on and submit problems in any order.
 
-   9. Your programs should read and write using file I/O. Teams should NOT read from STDIN or print to STDOUT, as this will result in your program being judged as incorrect. Stubs will be provided for each problem that will handle the file I/O, although teams are not required to use the stubs.
+   9. Your programs should read from the given input file and print to STDOUT (standard out, e.g. using "print"). Teams should NOT read from STDIN OR write their output to a file, as this will result in your program being judged as incorrect. Stubs will be provided for each problem that will handle the file I/O, although teams are not required to use the stubs.
 
   10. Teams should the efficiency of their solutions to make sure they will run in the specified time. Each problem will either have specified time constraint, or else the program should run in less than 5 seconds. For some of the problems there exist solutions that might work, but will run too slowly to provide the solution within the time limit.
 
